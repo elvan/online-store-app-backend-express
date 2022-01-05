@@ -1,4 +1,5 @@
 const express = require('express');
+const morgan = require('morgan');
 
 const enableCors = require('./middleware/cors.js');
 const products = require('./seeds/products');
@@ -7,6 +8,7 @@ const PORT = process.env.PORT || 5000;
 
 const app = express();
 
+app.use(morgan('tiny'));
 app.use(enableCors);
 app.use(express.json());
 
