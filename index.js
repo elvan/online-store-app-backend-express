@@ -1,5 +1,8 @@
 const express = require('express');
 const morgan = require('morgan');
+const dotenv = require('dotenv');
+
+dotenv.config();
 
 const enableCors = require('./middleware/cors.js');
 const products = require('./seeds/products');
@@ -28,5 +31,7 @@ app.get('/api/products/:id', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  console.log(
+    `Server is running in ${process.env.NODE_ENV} mode on port ${PORT}`
+  );
 });
