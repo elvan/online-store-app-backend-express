@@ -8,4 +8,4 @@ function enableCors(req, res, next) {
   next();
 }
 
-module.exports = enableCors;
+export default enableCors;
