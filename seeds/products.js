@@ -6,7 +6,7 @@ const products = [
     image:
       'https://images.unsplash.com/photo-1616464598261-2e345113fa3e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8ZnVybml0dXJlfHx8fHx8MTY0MTQzMDkwMg&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=600',
     description:
-      'Menggunakan meja sisi dapat menambah fungsi ruangan, sekaligus meningkatkan unsur dekorasi. Untuk ruangan dengan konsep scandinavian, Abin Meja Sisi dapat menjadi pelengkap sempurna. Letakkan di sudut ruangan, atau samping sofa untuk menyediakan tempat tambahan untuk memajang hiasan atau menaruh perlengkapan.',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur aliquet quam id dui posuere blandit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.',
     category: 'Meja',
     price: '599500',
     countInStock: 15,
@@ -20,7 +20,7 @@ const products = [
     image:
       'https://images.unsplash.com/photo-1602990721338-9cbb5b983c4d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8ZnVybml0dXJlfHx8fHx8MTY0MTQzMDk0NA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=600',
     description:
-      'Penempatan sofa di dalam ruangan tidak hanya berfungsi sebagai tempat duduk, namun juga dapat menciptakan aksen khusus pada dekorasi interior. Nordia Bertil Kursi Aksen Berlengan memiliki desain modern yang cocok untuk ruangan bergaya kontemporer atau ekletik. Dudukan empuk dan sandaran punggung yang tinggi dapat menopang tubuh Anda dengan nyaman dan rileks. Lengkapi area ruang tamu dan ruang keluarga Anda dengan Nordia Bertil Kursi Aksen Berlengan.',
+      'Nulla porttitor accumsan tincidunt. Sed porttitor lectus nibh. Curabitur aliquet quam id dui posuere blandit. Donec rutrum congue leo eget malesuada. Cras ultricies ligula sed magna dictum porta.',
     category: 'Sofa',
     price: '5099000',
     countInStock: 19,
@@ -34,7 +34,7 @@ const products = [
     image:
       'https://images.unsplash.com/photo-1616628076117-ce59d3c1c537?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8ZnVybml0dXJlfHx8fHx8MTY0MTQzMTAzOA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=600',
     description:
-      'Menggunakan meja sisi dapat menambah fungsi ruangan, sekaligus meningkatkan unsur dekorasi. Untuk ruangan dengan konsep scandinavian, Abin Meja Sisi dapat menjadi pelengkap sempurna. Letakkan di sudut ruangan, atau samping sofa untuk menyediakan tempat tambahan untuk memajang hiasan atau menaruh perlengkapan.',
+      'Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Pellentesque in ipsum id orci porta dapibus. Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.',
     category: 'Kursi',
     price: '899000',
     countInStock: 18,
@@ -48,7 +48,7 @@ const products = [
     image:
       'https://images.unsplash.com/photo-1526827826797-7b05204a22ef?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8ZnVybml0dXJlfHx8fHx8MTY0MTQzMTEyOQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=600',
     description:
-      'Lengkapi ruang tamu Anda dengan Lexxy Sofa 1 Dudukan ini. Sofa satu dudukan ini terbuat dari rangka kayu solid dilapisi dengan busa yang empuk dan nyaman, dan dibalut dengan lapisan kulit sintetis berwarna hitam. Hadir dengan desain minimalis, sofa ini cocok untuk ruangan bergaya modern. Lexxy Sofa 1 Dudukan ini dilengkapi dengan bantal sofa berwarna merah. Dapatkan segera produk ini dengan penawaran spesial dari Ruparupa.',
+      'Donec rutrum congue leo eget malesuada. Donec rutrum congue leo eget malesuada. Donec sollicitudin molestie malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Proin eget tortor risus.',
     category: 'Sofa',
     price: '999500',
     countInStock: 14,
@@ -62,7 +62,7 @@ const products = [
     image:
       'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8ZnVybml0dXJlfHx8fHx8MTY0MTQzMTM5Nw&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=600',
     description:
-      'Bersantai di ruang tamu atau ruang keluarga dapat terwujud dengan memiliki sofa bed Liberty persembahan dari Informa ini. Sofa ini memiliki desain yang ergonomis, karena dapat digunakan untuk duduk sekaligus untuk berbaring. Anda tinggal mengubah bentuknya sesuai kebutuhan. Terbuat dari material yang berkualitas, membuat sofa bed ini kokoh sehingga lebih awet dan tahan lama.',
+      'Quisque velit nisi, pretium ut lacinia in, elementum id enim. Sed porttitor lectus nibh. Vivamus suscipit tortor eget felis porttitor volutpat. Donec rutrum congue leo eget malesuada. Nulla porttitor accumsan tincidunt.',
     category: 'Sofa',
     price: '3499000',
     countInStock: 9,
@@ -76,7 +76,7 @@ const products = [
     image:
       'https://images.unsplash.com/photo-1615471618985-97108e2ba478?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8ZnVybml0dXJlfHx8fHx8MTY0MTQzMTIyOA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=600',
     description:
-      'Cordova meja tamu dengan aksen dekorasi yang berkilauan ini sangat ideal untuk menciptakan kesan mewah pada ruangan Anda. Hadir dengan warna silver dan material kaca membuat tampilan meja ini semakin bernuansa modern. Cocok digunakan di ruang tamu rumah, lobi hotel atau perkantoran.',
+      'Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec sollicitudin molestie malesuada.',
     category: 'Meja',
     price: '7199100',
     countInStock: 9,
