@@ -1,6 +1,7 @@
 import dotenv from 'dotenv';
 import express from 'express';
 import morgan from 'morgan';
+import connectToMongoDB from './database/mongoose.js';
 import enableCors from './middleware/cors.js';
 import products from './seeds/products.js';
 
@@ -30,6 +31,10 @@ app.get('/api/products/:id', (req, res) => {
   res.json({ product: product });
 });
 
-app.listen(PORT, () => {
-  console.log(`Server is running in ${NODE_ENV} mode on port ${PORT}`);
+connectToMongoDB().then(() => {
+  app.listen(PORT, () => {
+    console.log(
+      `Express server is running in ${NODE_ENV} mode on port ${PORT}`
+    );
+  });
 });
