@@ -25,12 +25,14 @@
   },
   "homepage": "https://github.com/elvan/online-store-app-backend-express#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "dotenv": "^10.0.0",
     "express": "^4.17.2",
     "mongoose": "^5.13.14",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
     "@types/express": "^4.17.13",
     "@types/mongoose": "^5.11.97",
     "@types/node": "^16.11.19",

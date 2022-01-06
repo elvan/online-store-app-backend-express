@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: '61d501b1fc13ae33fc0000001',
     brand: 'Abin',
     name: 'Meja Sisi - Putih',
     image:
@@ -14,7 +13,6 @@ const products = [
     numberOfReviews: 12,
   },
   {
-    _id: '61d501b1fc13ae33fc0000002',
     brand: 'Nordia',
     name: 'Bertil Kursi Aksen Berlengan - Krem',
     image:
@@ -28,7 +26,6 @@ const products = [
     numberOfReviews: 21,
   },
   {
-    _id: '61d501b1fc13ae33fc0000003',
     brand: 'Malrow',
     name: 'Kursi Berlengan - Cokelat',
     image:
@@ -42,7 +39,6 @@ const products = [
     numberOfReviews: 15,
   },
   {
-    _id: '61d501b1fc13ae33fc0000004',
     brand: 'Lexxy',
     name: 'Sofa Kulit 1 Dudukan',
     image:
@@ -56,7 +52,6 @@ const products = [
     numberOfReviews: 17,
   },
   {
-    _id: '61d501b1fc13ae33fc0000005',
     brand: 'Liberty',
     name: 'Sofa Tidur Fabric - Cokelat',
     image:
@@ -70,7 +65,6 @@ const products = [
     numberOfReviews: 3,
   },
   {
-    _id: '61d501b1fc13ae33fc0000006',
     brand: 'Cordova',
     name: 'Meja Tamu - Silver',
     image:
