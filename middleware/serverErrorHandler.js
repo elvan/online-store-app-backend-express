@@ -1,4 +1,4 @@
-const errorHandler = (err, req, res, next) => {
+const serverErrorHandler = (err, req, res, next) => {
   const statusCode = res.statusCode === 200 ? 500 : res.statusCode;
 
   res.status(statusCode);
@@ -8,4 +8,4 @@ const errorHandler = (err, req, res, next) => {
   });
 };
 
-export default errorHandler;
+export default serverErrorHandler;
