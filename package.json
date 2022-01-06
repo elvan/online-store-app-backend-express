@@ -1,7 +1,7 @@
 {
   "name": "online-store-app-backend-express",
   "version": "0.1.5",
-  "description": "",
+  "description": "Online store app backend built with Express and Mongoose",
   "main": "index.js",
   "type": "module",
   "engines": {
@@ -36,11 +36,9 @@
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
-    "@types/dotenv": "^8.2.0",
     "@types/express": "^4.17.13",
     "@types/mongoose": "^5.11.97",
     "@types/morgan": "^1.9.3",
-    "@types/node": "^16.11.19",
     "nodemon": "^2.0.15"
   }
 }
