@@ -1,7 +1,7 @@
-import { model, Schema } from 'mongoose';
-import reviewSchema from './reviewSchema';
+import mongoose from 'mongoose';
+import reviewSchema from './reviewSchema.js';
 
-const productSchema = new Schema(
+const productSchema = new mongoose.Schema(
   {
     brand: {
       type: String,
@@ -44,8 +44,8 @@ const productSchema = new Schema(
       default: 0,
     },
     reviews: [reviewSchema],
-    user: {
-      type: Schema.Types.ObjectId,
+    adminId: {
+      type: mongoose.Schema.Types.ObjectId,
       required: true,
       ref: 'User',
     },
@@ -55,6 +55,6 @@ const productSchema = new Schema(
   }
 );
 
-const Product = model('Product', productSchema);
+const Product = mongoose.model('Product', productSchema);
 
 export default Product;

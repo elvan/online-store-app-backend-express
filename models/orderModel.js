@@ -1,9 +1,9 @@
-import { model, Schema } from 'mongoose';
+import mongoose from 'mongoose';
 
-const orderSchema = new Schema(
+const orderSchema = new mongoose.Schema(
   {
-    customer: {
-      type: Schema.Types.ObjectId,
+    customerId: {
+      type: mongoose.Schema.Types.ObjectId,
       required: true,
       ref: 'User',
     },
@@ -27,8 +27,8 @@ const orderSchema = new Schema(
           required: true,
           default: 0,
         },
-        product: {
-          type: Schema.Types.ObjectId,
+        productId: {
+          type: mongoose.Schema.Types.ObjectId,
           required: true,
           ref: 'Product',
         },
@@ -111,6 +111,6 @@ const orderSchema = new Schema(
   }
 );
 
-const Order = model('Order', orderSchema);
+const Order = mongoose.model('Order', orderSchema);
 
 export default Order;
