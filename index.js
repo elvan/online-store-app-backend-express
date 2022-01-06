@@ -3,6 +3,8 @@ import express from 'express';
 import morgan from 'morgan';
 import connectToMongoDB from './database/mongoose.js';
 import enableCors from './middleware/cors.js';
+import errorHandler from './middleware/errorHandler.js';
+import notFoundHandler from './middleware/notFoundHandler.js';
 import productRouter from './routes/productRouter.js';
 
 dotenv.config();
@@ -21,6 +23,9 @@ app.use('/api/products', productRouter);
 app.get('/', (req, res) => {
   res.send('Express Backend is working');
 });
+
+app.use(notFoundHandler);
+app.use(errorHandler);
 
 connectToMongoDB().then(() => {
   app.listen(PORT, () => {
