@@ -3,7 +3,7 @@ import express from 'express';
 import morgan from 'morgan';
 import connectToMongoDB from './database/mongoose.js';
 import enableCors from './middleware/cors.js';
-import products from './seeds/products.js';
+import productRouter from './routes/productRouter.js';
 
 dotenv.config();
 
@@ -16,19 +16,10 @@ app.use(morgan('tiny'));
 app.use(enableCors);
 app.use(express.json());
 
+app.use('/api/products', productRouter);
+
 app.get('/', (req, res) => {
   res.send('Express Backend is working');
-});
-
-app.get('/api/products', (req, res) => {
-  res.json({ products: products });
-});
-
-app.get('/api/products/:id', (req, res) => {
-  const { id } = req.params;
-  const product = products.find((product) => product._id === id);
-
-  res.json({ product: product });
 });
 
 connectToMongoDB().then(() => {
