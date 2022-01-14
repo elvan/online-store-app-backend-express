@@ -11,9 +11,14 @@ router.get(
     const products = await Product.find({});
 
     if (products.length > 0) {
-      res.json({ products: products });
+      res.json({
+        message: 'Products fetched successfully',
+        products: products,
+      });
     } else {
-      res.json({ message: 'No products found' });
+      res.json({
+        message: 'No products found',
+      });
     }
   })
 );
@@ -27,9 +32,14 @@ router.get(
     const product = await Product.findById(id);
 
     if (product) {
-      res.json({ product: product });
+      res.json({
+        message: 'Product fetched successfully',
+        product: product,
+      });
     } else {
-      res.status(404).json({ message: 'Product not found' });
+      res.status(404).json({
+        message: 'Product not found',
+      });
     }
   })
 );
